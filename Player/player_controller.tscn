@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cckgnlbilcdav"]
+
+[ext_resource type="Script" uid="uid://qa848te6j1ak" path="res://Character/Gd_PlayerController.gd" id="1_biqn8"]
+[ext_resource type="PackedScene" uid="uid://b06fa403dapd2" path="res://Character/Character.tscn" id="2_a1q1g"]
+
+[node name="PlayerController" type="Node" unique_id=138137228 node_paths=PackedStringArray("Character")]
+script = ExtResource("1_biqn8")
+Character = NodePath("Character")
+
+[node name="Character" parent="." unique_id=1093244066 instance=ExtResource("2_a1q1g")]

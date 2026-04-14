@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://c6m8weo51dq0b"]
+
+[ext_resource type="PackedScene" uid="uid://ldoaejr61jev" path="res://Character/BlueSoldier/blue_soldier.tscn" id="3_pusnx"]
+
+[node name="PlayerController" type="Node2D" unique_id=1378921938]
+
+[node name="BlueSoldier" parent="." unique_id=1332883563 instance=ExtResource("3_pusnx")]

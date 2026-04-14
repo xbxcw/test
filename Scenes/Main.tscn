@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dqqbblk6vnnqr"]
+
+[ext_resource type="Script" uid="uid://detwmewjfmbxn" path="res://Scenes/main.gd" id="1_idj7w"]
+[ext_resource type="PackedScene" uid="uid://cy3tlq0f2qjmf" path="res://Scenes/map01.tscn" id="3_kln2b"]
+[ext_resource type="PackedScene" uid="uid://cckgnlbilcdav" path="res://Player/player_controller.tscn" id="3_rgh2o"]
+[ext_resource type="PackedScene" uid="uid://ldoaejr61jev" path="res://Character/BlueSoldier/blue_soldier.tscn" id="4_rgh2o"]
+[ext_resource type="PackedScene" uid="uid://dthpfr6bx81p6" path="res://UI/Ui_test.tscn" id="5_pbw6q"]
+
+[node name="Main" type="Node2D" unique_id=460382524]
+script = ExtResource("1_idj7w")
+
+[node name="Map" parent="." unique_id=904942852 instance=ExtResource("3_kln2b")]
+metadata/_edit_lock_ = true
+
+[node name="PlayerController" parent="." unique_id=241782925 instance=ExtResource("3_rgh2o")]
+
+[node name="Control" parent="." unique_id=915439612 node_paths=PackedStringArray("player_controller", "blue_soldier") instance=ExtResource("5_pbw6q")]
+player_controller = NodePath("../PlayerController")
+blue_soldier = NodePath("../BlueSoldier")
+
+[node name="BlueSoldier" parent="." unique_id=1985987927 instance=ExtResource("4_rgh2o")]
+position = Vector2(136, 248)

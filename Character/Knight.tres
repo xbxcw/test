@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="CharaceterTr" format=3 uid="uid://dhk6nlg2xxwwx"]
+
+[ext_resource type="SpriteFrames" uid="uid://vknyb4lte2dc" path="res://Character/AN_Knight.tres" id="1_1am2g"]
+[ext_resource type="Script" uid="uid://csty61ylvsncx" path="res://Character/GR_Characeter.gd" id="2_u8d51"]
+
+[resource]
+script = ExtResource("2_u8d51")
+Spritefarmes = ExtResource("1_1am2g")
+metadata/_custom_type_script = "uid://csty61ylvsncx"
