@@ -8,3 +8,5 @@
 >>>>>>> origin/master
 =======
 >>>>>>> origin/master
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.pdn filter=lfs diff=lfs merge=lfs -text
