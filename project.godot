@@ -30,7 +30,7 @@ window/stretch/scale_mode="integer"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/ImportCleaner/plugin.cfg", "res://addons/imjp94.yafsm/plugin.cfg")
+enabled=PackedStringArray("res://addons/_Godot-IDE_/plugin.cfg", "res://addons/imjp94.yafsm/plugin.cfg")
 
 [file_customization]
 
